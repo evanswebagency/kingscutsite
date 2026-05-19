@@ -299,7 +299,7 @@ function Location() {
             </div>
             <div className="flex items-start gap-3">
               <Phone className="mt-1 h-5 w-5 text-primary" />
-              <a href="tel:+15127643291" className="text-foreground hover:text-primary">+1 (512) 764-3291</a>
+              <a href="tel:+2347044131476" className="text-foreground hover:text-primary">+234 704 413 1476</a>
             </div>
           </div>
         </div>
@@ -326,7 +326,7 @@ function Contact() {
           <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-md bg-background px-8 py-4 font-semibold text-foreground transition-transform hover:scale-105">
             Book on WhatsApp
           </a>
-          <a href="tel:+15127643291" className="inline-flex items-center gap-2 rounded-md border-2 border-gold-foreground px-8 py-4 font-semibold transition-colors hover:bg-gold-foreground hover:text-primary">
+          <a href="tel:+2347044131476" className="inline-flex items-center gap-2 rounded-md border-2 border-gold-foreground px-8 py-4 font-semibold transition-colors hover:bg-gold-foreground hover:text-primary">
             <Phone className="h-4 w-4" /> Call Now
           </a>
         </div>

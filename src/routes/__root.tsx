@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Kings Cut" },
+      { name: "description", content: "Kings Cut Website is a professional barbershop site for booking appointments and viewing services." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Kings Cut" },
+      { property: "og:description", content: "Kings Cut Website is a professional barbershop site for booking appointments and viewing services." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Kings Cut" },
+      { name: "twitter:description", content: "Kings Cut Website is a professional barbershop site for booking appointments and viewing services." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e64fb747-7658-49db-9a46-c8b919a94ed0/id-preview-c2544b07--45f06ca5-bd04-4668-ba04-36828d6dd606.lovable.app-1779186527460.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e64fb747-7658-49db-9a46-c8b919a94ed0/id-preview-c2544b07--45f06ca5-bd04-4668-ba04-36828d6dd606.lovable.app-1779186527460.png" },
     ],
     links: [
       {

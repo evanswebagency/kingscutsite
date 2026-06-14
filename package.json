@@ -8,6 +8,8 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
+    "start": "node .vercel/output/functions/__nitro.func/index.mjs",
+    "vercel-build": "vite build",
     "lint": "eslint .",
     "format": "prettier --write ."
   },

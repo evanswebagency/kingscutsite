@@ -35,7 +35,7 @@
   --font-body: "Inter", system-ui, sans-serif;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap");
+/* Fonts loaded via <link> tags in src/routes/__root.tsx */
 
 :root {
   --radius: 0.5rem;
